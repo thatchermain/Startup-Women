@@ -1,0 +1,68 @@
+@import "./variables";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  min-width: 320px;
+  width: 100vw;
+  z-index: 1000;
+  transition: 0.4s ease-in-out;
+  background-color: $navBgDark;
+}
+.sidenav {
+  height: 100vh;
+  background-color: $navBgDark;
+  width: 100vw;
+  min-width: 300px;
+}
+.menuBar {
+  width: 100vw;
+  position: fixed;
+  height: 10vh;
+  background-color: $navBgDark;
+  z-index: 2;
+}
+.link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2;
+  text-transform: capitalize;
+  color: $textLight;
+  padding: 20px;
+  &:hover {
+    color: $textLight;
+    background-color: rgba($firstColor, 0.6);
+    border-radius: 20px;
+  }
+}
+
+.icon {
+  font-size: 3rem;
+  transition: 0.2s ease-in;
+
+  &:hover {
+    color: $firstColor;
+  }
+}
+.openIcon {
+  position: fixed;
+  top: 0;
+  display: block;
+  color: $secondColor;
+  // font-size: 3rem;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+.closeIcon {
+  display: block;
+  color: $secondColor;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+.hidden {
+  transform: translate(-110%, 0);
+  transition: 0.4s ease-in-out;
+}

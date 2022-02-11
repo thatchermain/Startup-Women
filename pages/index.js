@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700;800;900&family=Playfair+Display:ital,wght@0,700;1,400&family=Raleway:wght@900&display=swap"
           rel="stylesheet"
         />
       </Head>

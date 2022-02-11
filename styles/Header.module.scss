@@ -1,16 +1,18 @@
 @import "./variables";
 .header {
+  margin-top: 10vh;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background: url("../public/header/bg.png");
   background-position: center center;
   background-size: cover;
 }
 .wrapper {
   height: 80vh;
+  width: 100%;
 }
 .intro {
-  width: 60%;
+  width: 100%;
   height: 60%;
 }
 .h2 {
@@ -19,9 +21,10 @@
 }
 .h4 {
   color: $textLight;
+  font-weight: bold;
 }
 .gradient {
-  // font-size: 5rem;
+  font-family: $headerBold;
   font-weight: 900;
   background-color: red;
   background-image: linear-gradient(
@@ -40,13 +43,13 @@
 }
 .h3 {
   color: $textDisabled;
-  font-weight: bold;
+  // font-weight: bold;
 }
 .button {
   font-size: 1.25rem;
   color: $textLight;
-  width: 360px;
-  height: 75px;
+  width: 280px;
+  height: 70px;
   background: linear-gradient(to right, $firstColor, $secondColor);
   border-radius: 50px;
   border: none;

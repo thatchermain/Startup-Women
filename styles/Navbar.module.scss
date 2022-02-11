@@ -1,10 +1,18 @@
 @import "./variables";
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: $navBgDark;
+}
 .wrapper {
-  // width: 1130px;
+  width: 100%;
+  max-width: 1170px;
   height: 10vh;
 }
 .phone {
-  font-size: 2rem;
+  // font-size: 2rem;
   color: $textLight;
   font-family: $secondaryFont;
 }
