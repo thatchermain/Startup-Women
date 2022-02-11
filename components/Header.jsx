@@ -19,7 +19,9 @@ const Header = () => {
                 <h2 className={`${styles.h2} h2`}>May 25-26-2022,</h2>
                 <h2 className={`${styles.h2} h2`}>Arbat Hall</h2>
               </div>
-              <h4 className={`${styles.h4} display-5`}>Women's Conference</h4>
+              <h4 className={`${styles.h4} display-5`}>
+                {`Women's Conference`}
+              </h4>
               <h1 className={`${styles.gradient} display-1 m-0 `}>
                 STARTUP WOMEN
               </h1>
