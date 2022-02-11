@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
-import Header from "../Components/Header";
+import Header from "../components/Header";
+import Speakers from "../components/Speakers";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
       <Header />
       <About />
+      <Speakers />
     </div>
   );
 }
