@@ -1,0 +1,10 @@
+@import "./variables";
+.wrapper {
+  // width: 1130px;
+  height: 10vh;
+}
+.phone {
+  font-size: 2rem;
+  color: $textLight;
+  font-family: $secondaryFont;
+}

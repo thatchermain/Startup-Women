@@ -1,0 +1,57 @@
+@import "./variables";
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: url("../public/header/bg.png");
+  background-position: center center;
+  background-size: cover;
+}
+.wrapper {
+  height: 80vh;
+}
+.intro {
+  width: 60%;
+  height: 60%;
+}
+.h2 {
+  font-family: $secondaryFont;
+  color: $textLight;
+}
+.h4 {
+  color: $textLight;
+}
+.gradient {
+  // font-size: 5rem;
+  font-weight: 900;
+  background-color: red;
+  background-image: linear-gradient(
+    to right,
+    $firstColor,
+    $secondColor,
+    $firstColor
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.h3 {
+  color: $textDisabled;
+  font-weight: bold;
+}
+.button {
+  font-size: 1.25rem;
+  color: $textLight;
+  width: 360px;
+  height: 75px;
+  background: linear-gradient(to right, $firstColor, $secondColor);
+  border-radius: 50px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.12);
+  }
+}
