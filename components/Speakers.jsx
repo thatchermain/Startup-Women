@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Speakers = () => {
   return (
-    <section className={styles.speakers}>
+    <section id="speakers" className={styles.speakers}>
       <div className="container my-5 py-5">
         <h2 className="display-6 text-center">The time of fateful meetings</h2>
       </div>

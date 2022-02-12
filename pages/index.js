@@ -2,7 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
 import Header from "../components/Header";
+import Host from "../components/Host";
 import Speakers from "../components/Speakers";
+import Host1 from "../public/speakers/Host1.png";
+import Host2 from "../public/speakers/Host2.png";
 
 export default function Home() {
   return (
@@ -18,10 +21,17 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-
       <Header />
       <About />
       <Speakers />
+      <Host
+        src={Host1}
+        title="Start your dream project"
+        quote="“Fortune smiles on the brave. You will never know what you are
+              capable of until you risk it. ”"
+        name="~ Cheryl Sandberg"
+      />
+      {/* <Host src={Host2} /> */}
     </div>
   );
 }

@@ -1,0 +1,27 @@
+@import "./variables";
+
+.icon {
+  font-size: 2rem;
+  transition: 0.3s ease-in-out;
+
+  &__fb {
+    color: $facebook;
+  }
+  &__li {
+    color: $linkedin;
+  }
+  &__tw {
+    color: $twitter;
+  }
+}
+.iconWrapper {
+  border-radius: 20px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: rgba($firstColor, 0.1);
+  }
+  &:hover .icon {
+    transform: scale(1.2);
+  }
+}

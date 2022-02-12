@@ -24,7 +24,7 @@ const Navbar = () => {
             <Link href={"#program"}>
               <a>program</a>
             </Link>
-            <Link href={"3speakers"}>
+            <Link href={"#speakers"}>
               <a>speakers</a>
             </Link>
             <Link href={"#tickets"}>
