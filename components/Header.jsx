@@ -14,9 +14,11 @@ const Header = () => {
           className={`${styles.wrapper}  d-flex flex-column justify-content-center align-items-start`}
         >
           <Row className={`${styles.intro} mt-5 pt-5`}>
-            <Col className="d-flex flex-column justify-content-around align-items-center align-items-lg-start">
+            <Col className="d-flex flex-column justify-content-around  align-items-start">
               <div className={styles.date}>
-                <h2 className={`${styles.h2} h2`}>May 25-26-2022,</h2>
+                <h2 className={`${styles.h2} h2 text-start`}>
+                  May 25-26-2022,
+                </h2>
                 <h2 className={`${styles.h2} h2`}>Arbat Hall</h2>
               </div>
               <h4 className={`${styles.h4} display-5`}>

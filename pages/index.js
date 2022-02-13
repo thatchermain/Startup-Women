@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Host from "../components/Host";
 import Program from "../components/Program";
@@ -44,6 +45,7 @@ export default function Home() {
       </div>
       <Tickets />
       <Contact />
+      <Footer />
     </div>
   );
 }
