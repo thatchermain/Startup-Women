@@ -1,0 +1,38 @@
+@import "./variables";
+.contact {
+  margin-top: 10vh;
+  width: 100vw;
+  background: url("../public/contact/bg.png");
+  background-position: center center;
+  background-size: cover;
+  color: $textLight;
+}
+.input {
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  color: $textDisabled;
+}
+.formBtn {
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  transition: 0.3s ease-in-out;
+  color: $textLight;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: $textDark;
+  &:hover {
+    background-color: $textLight;
+    color: $textDark;
+    border: 1px solid $textDark;
+  }
+}
+.partners {
+  width: 100vw;
+  background: url("../public/contact/bg2.png");
+  background-position: center center;
+  background-size: cover;
+  // color: $textLight;
+}

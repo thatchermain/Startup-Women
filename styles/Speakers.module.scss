@@ -5,7 +5,7 @@
 }
 
 .card {
-  width: 260px;
+  width: 200px;
   background-color: transparent;
   perspective: 1000px;
   transition: 0.3s ease-in-out;
@@ -28,14 +28,16 @@
   position: relative;
 }
 .image {
-  width: 260px;
-  height: 260px;
+  width: 200px;
+  height: 200px;
 }
 .overlay {
-  width: 260px;
+  margin: 0 auto;
+  width: 200px;
   height: 100%;
   position: absolute;
   top: 0;
+  left: 0;
   color: white;
   border-radius: 20px;
   background-color: $firstColor;

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Header from "../components/Header";
 import Host from "../components/Host";
 import Program from "../components/Program";
@@ -42,6 +43,7 @@ export default function Home() {
         <h4 className="h5 text-center text-light pt-3">Joanne Welch</h4>
       </div>
       <Tickets />
+      <Contact />
     </div>
   );
 }

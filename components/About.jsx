@@ -4,7 +4,7 @@ import styles from "../styles/About.module.scss";
 
 const About = () => {
   return (
-    <section id="about" className={`${styles.about}`}>
+    <section id="about" className={`${styles.about} pt-5`}>
       <div
         className={`${styles.info} container d-flex justify-content-center align-items-center`}
       >

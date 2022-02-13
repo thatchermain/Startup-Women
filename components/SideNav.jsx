@@ -58,16 +58,6 @@ const SideNav = () => {
                 About Conference
               </a>
             </Link>
-            <Link href={"#program"}>
-              <a
-                className={`${styles.link} py-1`}
-                onClick={() => {
-                  setVisible(false);
-                }}
-              >
-                Program
-              </a>
-            </Link>
             <Link href={"#speakers"}>
               <a
                 className={`${styles.link} py-1`}
@@ -76,6 +66,16 @@ const SideNav = () => {
                 }}
               >
                 Speakers
+              </a>
+            </Link>
+            <Link href={"#program"}>
+              <a
+                className={`${styles.link} py-1`}
+                onClick={() => {
+                  setVisible(false);
+                }}
+              >
+                Program
               </a>
             </Link>
             <Link href={"#tickets"}>

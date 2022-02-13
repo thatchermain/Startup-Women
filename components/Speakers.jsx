@@ -8,8 +8,8 @@ import Link from "next/link";
 
 const Speakers = () => {
   return (
-    <section id="speakers" className={styles.speakers}>
-      <div className="container my-5 py-5">
+    <section id="speakers" className={`${styles.speakers} pt-5`}>
+      <div className="container my-5 pt-5">
         <h2 className="display-6 text-center">The time of fateful meetings</h2>
       </div>
       <Row className="container mx-auto my-0">

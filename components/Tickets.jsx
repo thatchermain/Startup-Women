@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Card from "./Card";
-import styles from "../styles/Tickets.module.scss";
 import Image from "next/image";
 import Appointment from "../public/program/appointment.png";
 import Contract from "../public/program/contract.png";
@@ -11,8 +10,8 @@ import Profit from "../public/program/profit.png";
 import Woman from "../public/program/woman.png";
 const Tickets = () => {
   return (
-    <section className={StyleSheet.tickets}>
-      <div className="container py-5">
+    <section id="tickets" className="mt-5 pt-5">
+      <div className="container mt-5 pt-5">
         <h2 className="display-6 text-center mb-5 ">
           How much is the journey to a dream?
         </h2>

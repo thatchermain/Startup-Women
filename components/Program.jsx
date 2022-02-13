@@ -4,8 +4,8 @@ import styles from "../styles/Program.module.scss";
 
 const Program = () => {
   return (
-    <section className={styles.program}>
-      <div className="container">
+    <section id="program" className={`${styles.program} pt-5`}>
+      <div className="container mt-5">
         <h2 className={`${styles.title} display-6 text-center py-5`}>
           Program
         </h2>

@@ -21,11 +21,11 @@ const Navbar = () => {
             <Link href={"#about"}>
               <a>about conference</a>
             </Link>
-            <Link href={"#program"}>
-              <a>program</a>
-            </Link>
             <Link href={"#speakers"}>
               <a>speakers</a>
+            </Link>
+            <Link href={"#program"}>
+              <a>program</a>
             </Link>
             <Link href={"#tickets"}>
               <a>tickets</a>
