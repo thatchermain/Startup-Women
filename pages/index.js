@@ -3,8 +3,9 @@ import Image from "next/image";
 import About from "../components/About";
 import Header from "../components/Header";
 import Host from "../components/Host";
+import Program from "../components/Program";
 import Speakers from "../components/Speakers";
-import Host1 from "../public/speakers/Host1.png";
+import Host1 from "../public/speakers/Host.png";
 import Host2 from "../public/speakers/Host2.png";
 
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
               capable of until you risk it. ”"
         name="~ Cheryl Sandberg"
       />
+      <Program />
       {/* <Host src={Host2} /> */}
     </div>
   );

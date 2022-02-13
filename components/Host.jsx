@@ -9,7 +9,7 @@ import styles from "../styles/Host.module.scss";
 const Host = (props) => {
   return (
     <div>
-      <Row className="container mx-auto my-0 py-5 my-5">
+      <Row className="container mx-auto my-0 py-3 mt-5">
         <Col className="col-12 col-md-6 d-flex justify-content-center align-items-center mx-auto ">
           <div className="text-center">
             <Image src={props.src} alt="host" width={360} height={260} />
@@ -24,21 +24,21 @@ const Host = (props) => {
 
           <div className={`d-flex justify-content-around align-items-center`}>
             <Link href="/">
-              <a className="px-4 mx-3">
+              <a className="px-2 ">
                 <div className={styles.iconWrapper}>
                   <SiFacebook className={`${styles.icon} ${styles.icon__fb}`} />
                 </div>
               </a>
             </Link>
             <Link href="/">
-              <a className="px-4 mx-3">
+              <a className="px-2 ">
                 <div className={styles.iconWrapper}>
                   <SiLinkedin className={`${styles.icon} ${styles.icon__li}`} />
                 </div>
               </a>
             </Link>
             <Link href="/">
-              <a className="px-4 mx-3">
+              <a className="px-2">
                 <div className={styles.iconWrapper}>
                   <SiTwitter className={`${styles.icon} ${styles.icon__tw}`} />
                 </div>
