@@ -38,7 +38,7 @@ export default function Home() {
       <Program />
       <div className="quote py-5">
         <em className="display-5 d-block text-center text-light">
-          {`"Control your destiny, or someone else will do it."`}
+          &quot;Control your destiny, or someone else will do it.&quot;
         </em>
 
         <h4 className="h5 text-center text-light pt-3">Joanne Welch</h4>
