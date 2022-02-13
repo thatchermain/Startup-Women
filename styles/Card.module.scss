@@ -1,0 +1,41 @@
+@import "./variables";
+.wrapper {
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid $firstColor;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background: linear-gradient(120deg, $secondColor 50%, $firstColor);
+    color: $textLight;
+  }
+  &:hover .button {
+    background: $textLight;
+    color: $firstColor;
+  }
+}
+
+.variant {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.oldPrice {
+  text-decoration: line-through;
+}
+.newPrice {
+  font-weight: bold;
+}
+
+.button {
+  transition: 0.3s ease-in-out;
+  width: 210px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  color: $textLight;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, $secondColor, $firstColor);
+}

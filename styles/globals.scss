@@ -18,3 +18,7 @@ a {
 .container {
   max-width: 1170px;
 }
+.quote {
+  background: linear-gradient(120deg, $secondColor 50%, $firstColor);
+  font-family: $secondaryFont;
+}

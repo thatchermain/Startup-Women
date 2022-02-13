@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Host from "../components/Host";
 import Program from "../components/Program";
 import Speakers from "../components/Speakers";
+import Tickets from "../components/Tickets";
 import Host1 from "../public/speakers/Host.png";
 import Host2 from "../public/speakers/Host2.png";
 
@@ -33,7 +34,14 @@ export default function Home() {
         name="~ Cheryl Sandberg"
       />
       <Program />
-      {/* <Host src={Host2} /> */}
+      <div className="quote py-5">
+        <em className="display-5 d-block text-center text-light">
+          "Control your destiny, or someone else will do it."
+        </em>
+
+        <h4 className="h5 text-center text-light pt-3">Joanne Welch</h4>
+      </div>
+      <Tickets />
     </div>
   );
 }
