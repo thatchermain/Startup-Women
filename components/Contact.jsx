@@ -36,8 +36,8 @@ const Contact = () => {
             </Col>
           </Row>
         </div>
-        <Row>
-          <div className="quote pb-5 px-0">
+        <Row className="gx-0">
+          <div className="quote pb-5">
             <div className="container text-center">
               <h2 className={`display-6 text-center py-5`}>
                 Reserve a place in the exhibition area
