@@ -12,7 +12,7 @@ const Host = (props) => {
       <Row className="container mx-auto my-0 py-3 mt-5">
         <Col className="col-12 col-md-6 d-flex justify-content-center align-items-center mx-auto ">
           <div className="text-center">
-            <Image src={props.src} alt="host" width="360" height="260" />
+            <Image src={props.src} alt="host" width={360} height={260} />
           </div>
         </Col>
         <Col className="d-flex flex-column align-items-center">

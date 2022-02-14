@@ -2,19 +2,16 @@
 
 .about {
   width: 100vw;
-  //   height: 65vh;
   background: url("../public/about/bg.webp");
   background-size: contain;
   background-position: center center;
+  background-color: $textLight;
 }
 .info {
-  //   background-color: yellow;
   width: 100%;
   height: 100%;
 }
-.wrapper {
-  //   background-color: skyblue;
-}
+
 .spanBold {
   font-weight: bold;
 }

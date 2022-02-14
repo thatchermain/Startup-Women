@@ -9,8 +9,8 @@ import Image from "next/image";
 
 const Contact = () => {
   return (
-    <section id="contact" className="pt-5">
-      <div className={`${styles.contact} mt-5`}>
+    <section id="contact" className="">
+      <div className={`${styles.contact}`}>
         <div className="container">
           <h2 className={`${styles.title} display-6 text-center p-5`}>
             Promote your business in the exhibition area
@@ -80,16 +80,16 @@ const Contact = () => {
         <h2 className={`display-6 text-center py-5`}>Our partners</h2>
         <Row className="">
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner1} alt="" width="122" height="88" />
+            <Image src={Partner1} alt="" width={122} height={88} />
           </Col>
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner2} alt="" width="246" height="30" />
+            <Image src={Partner2} alt="" width={246} height={30} />
           </Col>
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner3} alt="" width="122" height="88" />
+            <Image src={Partner3} alt="" width={122} height={88} />
           </Col>
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner4} alt="" width="122" height="88" />
+            <Image src={Partner4} alt="" width={122} height={88} />
           </Col>
         </Row>
       </div>

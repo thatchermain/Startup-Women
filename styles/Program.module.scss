@@ -1,10 +1,9 @@
 @import "./variables";
 .program {
   width: 100vw;
-  background: url("../public/program/bg.png");
+  background: url("../public/program/bg.webp");
   background-position: center center;
   background-size: cover;
-  // background-color: $navBgDark;
 }
 .column {
   border-bottom: 2px solid $secondColor;

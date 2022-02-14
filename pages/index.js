@@ -8,8 +8,8 @@ import Host from "../components/Host";
 import Program from "../components/Program";
 import Speakers from "../components/Speakers";
 import Tickets from "../components/Tickets";
-import Host1 from "../public/speakers/Host.png";
-import Host2 from "../public/speakers/Host2.png";
+import Host1 from "../public/speakers/Host.webp";
+import Host2 from "../public/speakers/Host2.webp";
 
 export default function Home() {
   return (

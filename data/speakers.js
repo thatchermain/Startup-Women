@@ -1,15 +1,15 @@
-import Lethia from "../public/speakers/Lethia.png";
-import Diana from "../public/speakers/Diana.png";
-import Marylee from "../public/speakers/Marylee.png";
-import Paula from "../public/speakers/Paula.png";
-import Isidra from "../public/speakers/Isidra.png";
-import Florence from "../public/speakers/Florence.png";
-import Evy from "../public/speakers/Evy.png";
-import Ana from "../public/speakers/Ana.png";
-import Guinna from "../public/speakers/Guinna.png";
-import Shandie from "../public/speakers/Shandie.png";
-import Linette from "../public/speakers/Linette.png";
-import Bekki from "../public/speakers/Bekki.png";
+import Lethia from "../public/speakers/Lethia.webp";
+import Diana from "../public/speakers/Diana.webp";
+import Marylee from "../public/speakers/Marylee.webp";
+import Paula from "../public/speakers/Paula.webp";
+import Isidra from "../public/speakers/Isidra.webp";
+import Florence from "../public/speakers/Florence.webp";
+import Evy from "../public/speakers/Evy.webp";
+import Ana from "../public/speakers/Ana.webp";
+import Guinna from "../public/speakers/Guinna.webp";
+import Shandie from "../public/speakers/Shandie.webp";
+import Linette from "../public/speakers/Linette.webp";
+import Bekki from "../public/speakers/Bekki.webp";
 
 const speakers = [
   {

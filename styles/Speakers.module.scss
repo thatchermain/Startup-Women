@@ -9,8 +9,6 @@
   background-color: transparent;
   perspective: 1000px;
   transition: 0.3s ease-in-out;
-  &:hover {
-  }
   &:hover .overlay {
     transform: scale(1);
     box-shadow: 10px 10px 10px $navBgDark;

@@ -1,8 +1,7 @@
 @import "./variables";
 .contact {
-  margin-top: 10vh;
   width: 100vw;
-  background: url("../public/contact/bg-res.jpeg");
+  background: url("../public/contact/bg.webp");
   background-position: center center;
   background-size: cover;
   color: $textLight;
@@ -31,8 +30,8 @@
 }
 .partners {
   width: 100vw;
-  background: url("../public/contact/bg2.png");
+  background: url("../public/contact/bg2.webp");
   background-position: center center;
   background-size: cover;
-  // color: $textLight;
+  color: $textLight;
 }
