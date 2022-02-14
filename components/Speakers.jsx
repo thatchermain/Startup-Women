@@ -24,8 +24,8 @@ const Speakers = () => {
                         className={styles.photo}
                         src={speaker.source}
                         alt={speaker.first_name}
-                        width="260"
-                        height="260"
+                        width={200}
+                        height={200}
                       />
                     </div>
                     <div
