@@ -1,7 +1,8 @@
 @import "./variables";
 
 .speakers {
-  background-color: rgba($firstColor, 0.3);
+  background: radial-gradient($navBgDark, $textDark);
+  color: $textLight;
 }
 
 .card {

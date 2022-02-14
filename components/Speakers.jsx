@@ -10,7 +10,7 @@ const Speakers = () => {
   return (
     <section
       id="speakers"
-      className={`${styles.speakers} pt-5 d-none d-md-block`}
+      className={`${styles.speakers} py-5 d-none d-md-block`}
     >
       <div className="container my-5 pt-5">
         <h2 className="display-6 text-center">The time of fateful meetings</h2>
@@ -19,7 +19,7 @@ const Speakers = () => {
         {speakers.map((speaker) => {
           return (
             <>
-              <Col className="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+              <Col className="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 ">
                 <div className={`${styles.card} mx-auto`}>
                   <div className={styles.wrapper}>
                     <div className={`${styles.image} mx-auto`}>
