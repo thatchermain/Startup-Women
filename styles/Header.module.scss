@@ -3,9 +3,10 @@
   margin-top: 10vh;
   width: 100vw;
   height: 90vh;
-  background: url("../public/header/bg.webp");
-  background-position: center center;
-  background-size: cover;
+  // background: url("../public/header/bg.webp");
+  // background-position: center center;
+  // background-size: cover;
+  background-color: $navBgDark;
 }
 .wrapper {
   height: 80vh;
