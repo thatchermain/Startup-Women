@@ -1,12 +1,12 @@
 @import "./variables";
 
-// .footer {
-//   width: 100vw;
-//   background: url("../public/footer/bg.webp");
-//   background-position: center center;
-//   background-size: contain;
-//   color: $textLight;
-// }
+.footer {
+  width: 100vw;
+  background: url("../public/footer/bg.webp");
+  background-position: center center;
+  background-size: contain;
+  color: $textLight;
+}
 .info {
   border: 1px solid $secondColor;
   border-radius: 30px;
