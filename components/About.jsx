@@ -1,4 +1,3 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import styles from "../styles/About.module.scss";
 
@@ -10,7 +9,7 @@ const About = () => {
       >
         <Row className={`${styles.wrapper} my-5 py-5 `}>
           <Col className="col-12 col-lg-6 mb-5 px-5">
-            <div className={`${styles.info__left}`}>
+            <div className={styles.info__left}>
               <p className="display-6 text-center py-3">
                 <span
                   className={`${styles.span} ${styles.spanBold} display-6 `}
@@ -30,7 +29,7 @@ const About = () => {
             </div>
           </Col>
           <Col className="col-12 col-lg-6 px-5">
-            <div className={`${styles.info__right}`}>
+            <div className={styles.info__right}>
               <p className="display-6">
                 We meet on{" "}
                 <span className={`${styles.span} ${styles.spanBold} display-6`}>

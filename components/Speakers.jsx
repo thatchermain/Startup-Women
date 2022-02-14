@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/Speakers.module.scss";
 import speakers from "../data/speakers";
 import { Col, Row } from "react-bootstrap";

@@ -1,10 +1,7 @@
 @import "./variables";
 .contact {
   width: 100vw;
-  // background: url("../public/contact/bg.webp");
-  // background-position: center center;
-  // background-size: cover;
-  background: radial-gradient($navBgDark, $textDark);
+  background: $darkRadial;
   color: $textLight;
 }
 .input {
@@ -31,9 +28,6 @@
 }
 .partners {
   width: 100vw;
-  // background: url("../public/contact/bg2.webp");
-  // background-position: center center;
-  // background-size: cover;
   background: radial-gradient($pinkLight, $textLight);
   color: $textLight;
 }

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Row } from "react-bootstrap";
 import { BsMenuUp, BsBoxArrowLeft } from "react-icons/bs";
 import styles from "../styles/SideNav.module.scss";
@@ -56,16 +56,6 @@ const SideNav = () => {
                 }}
               >
                 About Conference
-              </a>
-            </Link>
-            <Link href={"#speakers"}>
-              <a
-                className={`${styles.link} py-1`}
-                onClick={() => {
-                  setVisible(false);
-                }}
-              >
-                Speakers
               </a>
             </Link>
             <Link href={"#program"}>

@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import { Col, Row } from "react-bootstrap";
 import styles from "../styles/Header.module.scss";
 import Navbar from "./Navbar";
@@ -6,7 +6,7 @@ import SideNav from "./SideNav";
 
 const Header = () => {
   return (
-    <header className={`${styles.header}`}>
+    <header className={styles.header}>
       <Navbar />
       <SideNav />
       <div className="container">
@@ -31,7 +31,9 @@ const Header = () => {
                 from idea to empire
               </h3>
               <button className={`${styles.button} mx-auto my-5 `}>
-                SIGN UP
+                <Link href={"#contact"}>
+                  <a>SIGN UP</a>
+                </Link>
               </button>
             </Col>
           </Row>
