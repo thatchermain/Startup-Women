@@ -70,19 +70,19 @@ const Tickets = () => {
           </Col>
           <Col className="col-12 col-md-4 pb-5 px-5">
             <div className="px-5 d-flex flex-column  justify-content-center align-items-center text-center">
-              <Image src={Contract} alt="Contract" width={64} height={64} />
+              <Image src={Contract} alt="Contract" width="64" height="64" />
               <h4 className="h4 py-3">Sign 10 contracts</h4>
             </div>
           </Col>
           <Col className="col-12 col-md-4 pb-5 px-5">
             <div className="px-5 d-flex flex-column  justify-content-center align-items-center text-center">
-              <Image src={Profit} alt="Profit" width={64} height={64} />
+              <Image src={Profit} alt="Profit" width="64" height="64" />
               <h4 className="h4 py-3">Find an investor for your project</h4>
             </div>
           </Col>
           <Col className="col-12 col-md-4 pb-5 px-5">
             <div className="px-5 d-flex flex-column  justify-content-center align-items-center text-center">
-              <Image src={Woman} alt="Woman" width={64} height={64} />
+              <Image src={Woman} alt="Woman" width="64" height="64" />
               <h4 className="h4 py-3">Find an investor for your project</h4>
             </div>
           </Col>
@@ -99,7 +99,7 @@ const Tickets = () => {
           </Col>
           <Col className="col-12 col-md-4 pb-5 px-5 ">
             <div className="px-5 d-flex flex-column  justify-content-center align-items-center text-center">
-              <Image src={Diamond} alt="Diamond" width={64} height={64} />
+              <Image src={Diamond} alt="Diamond" width="64" height="64" />
               <h4 className="h4 py-3">Get a ring on the finger</h4>
             </div>
           </Col>

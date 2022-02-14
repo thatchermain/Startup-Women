@@ -12,7 +12,7 @@ const Navbar = () => {
         className={`${styles.wrapper} container d-flex justify-content-between align-items-center mx-auto px-3`}
       >
         <Col className="text-start col-1 me-0 p-0">
-          <Image src={Logo} alt={Logo} width={90} height={90} />
+          <Image src={Logo} alt={Logo} width="90" height="90" />
         </Col>
         <Col className={`${styles.links} col-7`}>
           <ul

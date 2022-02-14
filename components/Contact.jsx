@@ -80,16 +80,16 @@ const Contact = () => {
         <h2 className={`display-6 text-center py-5`}>Our partners</h2>
         <Row className="">
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner1} alt="" width={122} height={88} />
+            <Image src={Partner1} alt="" width="122" height="88" />
           </Col>
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner2} alt="" width={246} height={30} />
+            <Image src={Partner2} alt="" width="246" height="30" />
           </Col>
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner3} alt="" width={122} height={88} />
+            <Image src={Partner3} alt="" width="122" height="88" />
           </Col>
           <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner4} alt="" width={122} height={88} />
+            <Image src={Partner4} alt="" width="122" height="88" />
           </Col>
         </Row>
       </div>
