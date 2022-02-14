@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <Header />
       <About />
-      {/* <Speakers /> */}
+      <Speakers />
       <Host
         src={Host1}
         title="Start your dream project"
