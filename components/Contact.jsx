@@ -35,14 +35,14 @@ const Contact = () => {
             </Col>
           </Row>
         </div>
-        <Row id="contact" className="gx-0 ">
+        <Row id="contact" className="gx-0">
           <div className="quote pb-5">
             <div className="container text-center py-5">
               <h2 className={`display-6 text-center py-5`}>
                 Reserve a place in the exhibition area
               </h2>
               <form>
-                <Row>
+                <Row className="m-0">
                   <Col className="col-12 col-md-6 col-xl-3">
                     <input
                       type="text"
@@ -72,25 +72,45 @@ const Contact = () => {
             </div>
           </div>
         </Row>
-      </div>
-      <div
-        className={`${styles.partners} d-flex flex-column justify-content-center align-items-center`}
-      >
-        <h2 className={`display-6 text-center py-5`}>Our partners</h2>
-        <Row>
-          <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner1} alt="Partner logo" width={122} height={88} />
-          </Col>
-          <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner2} alt="Partner logo" width={246} height={30} />
-          </Col>
-          <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner3} alt="Partner logo" width={122} height={88} />
-          </Col>
-          <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
-            <Image src={Partner4} alt="Partner logo" width={122} height={88} />
-          </Col>
-        </Row>
+        <div
+          className={`${styles.partners} d-flex flex-column justify-content-center align-items-center`}
+        >
+          <h2 className={`display-6 text-center py-5`}>Our partners</h2>
+          <Row className="m-0">
+            <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
+              <Image
+                src={Partner1}
+                alt="Partner logo"
+                width={122}
+                height={88}
+              />
+            </Col>
+            <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
+              <Image
+                src={Partner2}
+                alt="Partner logo"
+                width={246}
+                height={30}
+              />
+            </Col>
+            <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
+              <Image
+                src={Partner3}
+                alt="Partner logo"
+                width={122}
+                height={88}
+              />
+            </Col>
+            <Col className="col-12 col-md-6 col-lg-3 d-flex justify-content-around align-items-center pb-5">
+              <Image
+                src={Partner4}
+                alt="Partner logo"
+                width={122}
+                height={88}
+              />
+            </Col>
+          </Row>
+        </div>
       </div>
     </section>
   );
